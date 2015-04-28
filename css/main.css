@@ -1,0 +1,226 @@
+@font-face {
+	font-family: 'DINWebPro';
+	src: url('../fonts/DINWebPro.woff') format('woff');
+	font-weight: normal
+}
+@font-face {
+	font-family: 'DINWebPro-Medium';
+	src: url('../fonts/DINWebPro-Medium.woff') format('woff')
+}
+@font-face {
+	font-family: 'DINWebPro-Bold';
+	src: url('../fonts/DINWebPro-Bold.woff') format('woff');
+	font-weight: bold
+}
+
+body {
+	position: relative;
+	margin: 0 auto;
+  font-family: 'DINWebPro', serif;
+	width: 100%;
+	height: 100%;
+}
+.navbar, .navbar-default {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	min-height: 80px;
+}
+
+.nav li {
+	display: inline;
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-size: 1.7em;
+	font-weight: 300;
+	padding: 30px 25px 33px 25px;
+}
+
+.navbar-toggle:before
+{
+	content: "Menu";
+	left: -50px;
+	top:2px;
+	position:absolute;
+	width:50px;
+	color: #0055c1;
+	font-size: 1.4em;
+}
+.navbar-default .navbar-nav li a:hover {
+	transition: 0.7s all linear;
+	height: 100%;
+}
+
+.dealer_btn:before{
+	content: "Dealer";
+	left: 5px;
+	top: 27px;
+	position:absolute;
+	width: 100px;
+	color: #0055c1;
+	font-size: 1.4em;
+}
+.dealer_btn img{
+	left: 70px;
+	top: 25px;
+	width: 7%;
+	position:absolute;
+}
+
+
+.logo img{
+	width: 100%;
+}
+
+.dealertxt{
+	font-size: 1.2em;
+	margin-right: 5px;
+
+}
+.news{
+	padding-top: 15px;
+
+}
+.veloster{
+	background-image: url(images/hero-below-img.jpg);
+	
+}
+.cars img{
+	width: 100%;
+}
+.news .text{
+	min-height: 20px;
+	background-color: #eeeeee;
+}
+
+.listCars{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.carTypeTitle{
+	padding-top: 20px;
+}
+.cartype{
+	color: #c5c5c5;
+}
+.carName{
+	color: #0055c1;
+	font-size: 1.1em;
+}
+.carPrice{
+	color: #002b72;
+	font-size: .5em;
+}
+
+.findAdealer{
+	margin-top: 25px;
+	padding-top: 20px;
+	min-height: 100%;
+	background-color: #004b8e;
+}
+
+.findDealerTxt{
+	font-size: 1.2em;
+}
+
+.divider {
+    text-align:center;
+    color: #568ab9;
+    display: inline;
+}
+
+.divider hr {
+    margin-left:15px;
+    margin-right:15px;
+    width:25%;
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
+}
+
+.dealerFind{
+	padding-top: 10px;
+}
+.dealerFind img{
+	width: 100%;
+}
+.smContainer{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.txtColor{
+	color: #005bbc;
+}
+.zipCodeInput{
+	line-height: 1.4em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+}
+.goBtn{
+	padding-left: 5px;
+	width: 30px;
+}
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+.item {
+	width:100%;
+  height:100%;
+	display: table;
+	padding-top: 5px;
+}
+.socialMedia{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.shoppingTools, .socialMedia{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.socialMedia img{
+	width: 10%;
+}
+.socialMedia .divider hr {
+    margin-left:15px;
+    margin-right:15px;
+    width:13%;
+}
+#map-canvas {
+  height: 100%;
+  margin: 0px;
+  padding: 0px
+}
+
+footer{
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+footer img{
+	width: 100%;
+	padding-bottom: 20px;
+}
+footer .copyright{
+	font-size: .8em;
+	color: #999999;
+	padding-bottom: 15px;
+}
